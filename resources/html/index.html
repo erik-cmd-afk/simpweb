@@ -8,8 +8,10 @@
 
 <style>
     body {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        margin: 0;
+        background-color: black; 
+        color: aliceblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .main_con {
@@ -17,19 +19,39 @@
         flex-direction: column;
         justify-content: center; 
         align-items: center; 
-        height: 100vh; 
+        height: 100vh;
+        margin: 150px; 
+        padding: 10px; 
+        border-radius: 20px; 
+        box-shadow: 0 0 20px rgb(255, 255, 255, 1); 
     }
     .main_con img {
         max-width: 100%; 
         max-height: 100%; 
+        border-radius: 20px; 
+        box-shadow: 0 0 20px rgb(255, 255, 255, 1);
+    }
+    .sec_con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: rgb(27, 28, 28);
+        box-shadow: 0 0 20px rgb(255, 255, 255, 1); 
+        border-radius: 20px;
     }
 
+    .in {
+        margin: 50px;
+    }
 </style>
 <body>
     <div class="main_con">
-        <img src="../html/png/simpweb.png" alt="simpweb">
-        <br> <h1>🇩🇪 Wie du in 20 min. deine eigene Website erstellst 🇩🇪</h1> <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3MIitoSQkE?si=bJ5a4tTpxeu-vHqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="sec_con">
+            <img class="in" src="../png/simpweb.beta.png" alt="simpweb">
+            <br> <h1 class="in">🇩🇪 Wie du in 20 min. deine eigene Website erstellst 🇩🇪</h1> <br>
+            <iframe class="in" width="560" height="315" src="https://www.youtube.com/embed/Q3MIitoSQkE?si=bJ5a4tTpxeu-vHqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
 </body>
 </html>
