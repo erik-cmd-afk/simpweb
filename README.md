@@ -1,4 +1,15 @@
-# simpweb 🚀
+           /$$                                                 /$$      
+          |__/                                                | $$      
+  /$$$$$$$ /$$ /$$$$$$/$$$$   /$$$$$$  /$$  /$$  /$$  /$$$$$$ | $$$$$$$ 
+ /$$_____/| $$| $$_  $$_  $$ /$$__  $$| $$ | $$ | $$ /$$__  $$| $$__  $$
+|  $$$$$$ | $$| $$ \ $$ \ $$| $$  \ $$| $$ | $$ | $$| $$$$$$$$| $$  \ $$
+ \____  $$| $$| $$ | $$ | $$| $$  | $$| $$ | $$ | $$| $$_____/| $$  | $$
+ /$$$$$$$/| $$| $$ | $$ | $$| $$$$$$$/|  $$$$$/$$$$/|  $$$$$$$| $$$$$$$/
+|_______/ |__/|__/ |__/ |__/| $$____/  \_____/\___/  \_______/|_______/.BETA
+                            | $$                                        
+                            | $$                                        
+                            |__/                                        
+
 
 Welcome to simpweb, your simple web server tool for Windows, developed by an aspiring 15-year-old developer from Germany! 🌟
 
@@ -15,13 +26,10 @@ simpweb is a lightweight web server specifically designed for Windows. It's insp
 
 ## Getting Started
 
-To use simpweb, follow these simple steps:
+### Think about whether you want to 
 
-1. Download the latest version of simpweb from our GitHub repository.
-2. Unzip the archive to a folder of your choice.
-3. Double-click the executable file to start the web server. (bin/main.exe)
-4. Open your preferred web browser and type `http://localhost:8080` into the address bar.
-5. Voilà! You should now see the simpweb's default page.
+1. run `simpweb` only in the foreground in the terminal                 `Run in terminal`
+2. or with a small detour as a service in the background (recommended)  `Run as service` (comming soon (02.04.2024))
 
 ## Contribution
 
