@@ -33,7 +33,7 @@ If you need help using simpweb or encounter any issues, please also open an issu
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the `Mozilla Public License Version 2.0` file for more details.
 
 ## Contact
 
