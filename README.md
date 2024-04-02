@@ -18,7 +18,7 @@ simpweb is a lightweight web server specifically designed for Windows. It's insp
 ### Think about whether you want to 
 
 1. run `simpweb` only in the foreground in the terminal                 `Run in terminal`
-2. or with a small detour as a service in the background (recommended)  `Run as service` (comming soon (02.04.2024))
+2. or with a small detour as a service in the background (recommended)  `Run as service` (comming soon)
 
 ## Contribution
 
